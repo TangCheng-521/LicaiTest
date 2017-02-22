@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LicaiDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">正在加载</string>
+    <string name="no_more_data">--end--</string>
+    <string name="credit_test">{"List":[{"Amt":"200","acqRefno":"a","currCd":"CNY","acctNo":"00000000000000084160","postDate":"2016-07-30","tranSn":"20010729002747697333","billAmt":"200","cardNo":"6251292802727970","transDate":"2016-07-29","Mcc":"5542","mercName":"中国石油天然气股份有限公司江苏常州石油分","ipmFlag":"Y","subaccNo":"1","payDate":"2016-08-20","approvalCd":"","excessLmtInd":"N","descTrans":"银联POS消费","ageCd":"0"},{"Amt":"-40","acqRefno":"a","currCd":"CNY","acctNo":"00000000000000084160","postDate":"2016-08-10","tranSn":"10010810083433535609","billAmt":"-40","cardNo":"6251292802727970","transDate":"2016-08-10","Mcc":"0","mercName":"","ipmFlag":"N","subaccNo":"91","payDate":"2016-08-20","approvalCd":"","excessLmtInd":"N","descTrans":"本行其它转账还款","ageCd":"0"},{"Amt":"200","acqRefno":"a","currCd":"CNY","acctNo":"00000000000000084160","postDate":"2016-08-11","tranSn":"20010810183434002083","billAmt":"200","cardNo":"6251292802727970","transDate":"2016-08-10","Mcc":"5542","mercName":"中国石油天然气股份有限公司江苏常州石油分","ipmFlag":"Y","subaccNo":"1","payDate":"2016-08-20","approvalCd":"","excessLmtInd":"N","descTrans":"银联POS消费","ageCd":"0"}],"_RejCode":"000000","totalPage":"1"}</string>
+    <string name="credit_test1">{"Amt":"200","acqRefno":""}</string>
+    <string name="credit_test2">{"Amt":"200","acqRefno":"","currCd":"CNY","acctNo":"00000000000000084160","postDate":"20160730","tranSn":"20010729002747697333","billAmt":"200","cardNo":"6251292802727970","transDate":"20160729","Mcc":"5542","mercName":"中国石油天然气股份有限公司江苏常州石油分","ipmFlag":"Y","subaccNo":"1","payDate":"20160820","approvalCd":"","excessLmtInd":"N","descTrans":"银联POS消费","ageCd":"0"}</string>
+</resources>

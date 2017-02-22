@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <com.tang.view.LoadMoreListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:divider="#e6e5e8"
+        android:dividerHeight="0.6dp"
+        android:paddingLeft="10dp"
+        tools:listitem="@layout/item_licai_order_product_type"
+        android:background="@android:color/white"
+        />
+</LinearLayout>

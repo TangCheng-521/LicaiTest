@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RingProgressBar">
+        <attr name="ringColor_RPB" format="color"/>
+        <attr name="ringProgressColor_RPB" format="color"/>
+        <attr name="max_RPB" format="integer"/>
+        <attr name="progress_RPB" format="integer"/>
+        <attr name="isAnim_RPB" format="boolean"/>
+        <attr name="style_RPB">
+            <enum name="STROKE" value="0"/>
+            <enum name="FIll" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

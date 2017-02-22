@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tang.licaidemo.ColorMatrixActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_logo_14" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_logo_14" />
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="change" />
+
+    <RelativeLayout
+        android:id="@+id/rl_progress"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="doClick">
+        <com.tang.view.RingProgressBar
+            android:id="@+id/ringProgress"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:max_RPB="100"
+            app:progress_RPB="65"
+            app:isAnim_RPB="true"
+            android:text="65%"
+            android:gravity="center"
+            android:textColor="#3cacfa"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="65%"
+            android:textSize="18sp"
+            android:textColor="#3cacfa"/>
+    </RelativeLayout>
+
+</RelativeLayout>

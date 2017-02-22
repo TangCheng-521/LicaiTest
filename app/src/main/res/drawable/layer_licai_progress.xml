@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/shape_licai_detail" />
+
+    <item android:id="@android:id/progress">
+
+        <clip
+            android:clipOrientation="horizontal"
+            android:drawable="@drawable/ic_open_licai_progress"
+            android:gravity="left">
+        </clip>
+    </item>
+</layer-list>
